@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../../css and js files/chosen.css">
+        <title>Learnit: Discovery</title>
+        <script src="https://kit.fontawesome.com/e15be8eee7.js" crossorigin="anonymous"></script>
+        <meta http-equiv="Learnit Homescreen and status" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+      <!--This the top navigation bar. Code snippes found at W3Schools-->
+      <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+        <a href="../../../Index.html" class="active"><span id="app-icon">Learnit</span></a>
+        <ul id="myLinks">
+          <div class="app-icon">
+          <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          <a href="../../../Index.html" class="active"><span id="app-icon">Learnit</span></a>
+        </div>
+          <li id="links"><a href="../../Discovery.html">Discovery</a></li>
+          <li id="links"><a href="#about">About</a></li>
+          <li id="links"><a href="#terms and conditions">Terms and conditions</a></li>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!--The user's choice and the explore collumb-->
+      <div id="book-display">
+        <button onclick="startReading()" id="start-reading">Close</button>
+        <iframe src="../../../Sources/essential-mathematics-for-the-australian-curriculum-year-9_compress.pdf#toolbar=0&zoom=350" width="95%" height="95%"" frameborder="5"></iframe>
+      </div>
+      <div class="users-choice">
+     <img id="user-recommendation" src="../../../Images/Sources image/Grade9-Essential-Maths-Australian-Curriculum.png" alt="Harry Potter and the Sorcerers Stone">
+      <div id="about-read">
+        <sub>About the book</sub>
+        <p></p>
+        <button onclick="startReading()" id="start-reading">Start Reading <i class="fa-solid fa-play"></i> </button>
+      </div>
+    </div>
+      <!--The search bar amd the books. Code snippets for the search bar can be found at W3Schools-->
+      <div class="explore">
+        <div class="search">
+      <input type="text" id="Search-books" onkeyup="myFunction()" placeholder="Search for books..." title="Type in a book name">
+    </div>
+      <ul id="mybooks">
+        <li><a href="../Quizzes/France-quiz.html"><img id="explore-books" src="../../../Images/Sources image/Quizzes/France-Quiz.png" alt="France Quiz"><span id="book-name">France Quiz</span></a></li>
+      </ul>
+    </div>
+    <!--The chatbot-->
+<div class="talk">
+  <button id="chat-button" onclick="openForm()"><img id="ch" src="../../../Images/chat.png" alt="chat"></button>
+  <div id="chat">
+  <header><img src="../../../Images/Chatbot.png" alt="LearnBot">
+  <p id="hello">Hi, I am LearnBot. How can I help?</p>
+  </header>
+  <div id="messages">
+    <p id="user"></p>
+    <p id="bot"></p>
+  </div>
+<div id="input-container">
+  <input type="text" placeholder="ask me anything" id="input"/>
+  <button id="send-button">Send</button>
+</div>
+</div>
+</body>
+    <script src="../../../css and js files/Chosen.js"></script>
+</html>

@@ -1,0 +1,69 @@
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css and js files/home.css">
+  <script src="https://kit.fontawesome.com/e15be8eee7.js" crossorigin="anonymous"></script>
+  <title>Learnit: Homescreen</title>
+</head>
+<html>
+    <body>
+       <!--This the top navigation bar. Code snippes found at W3Schools-->
+       <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+        <a href="../Index.html" class="active"><span id="app-icon">Learnit</span></a>
+        <ul id="myLinks">
+          <div class="app-icon">
+          <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          <a href="../Index.html" class="active"><span id="app-icon">Learnit</span></a>
+        </div>
+          <li id="links"><a href="Discovery.html">Discovery</a></li>
+          <li id="links"><a href="#about">About</a></li>
+          <li id="links"><a href="#terms and conditions">Terms and conditions</a></li>
+          </div>
+        </div>
+        </div>
+      </div>
+        <div class="intro-and-clock">
+        <!--API for the clock. Api found from https://www.timeanddate.com/clocks/free.html-->
+        <div class="clock">
+          <div id="clock-display">
+          <iframe src="https://free.timeanddate.com/clock/i9ieou5w/n569/fs48/fcfff/tct/pct/ftb/bas4/bacfff/th2" frameborder="0" width="332" height="65" allowtransparency="true"></iframe>
+        </div>
+      </div>
+        <img id="Welcome" src="../Images/Welcome.gif" alt="Welcome to Learnit">
+        </div>
+
+        <ul id="Progress-bar">
+            <li><p id="Skills">Typing Skills</p></li>
+            <li><p id="Skills">Naplan Skills</p></li>
+            <li><p id="Skills">Schools Subject Skills</p></li>
+            <li><p id="Skills">Books Read</p></li>
+        </ul>
+        <a href="Discovery.html">
+        <button class="Start-reading">
+        <p>Start Reading</p>
+        </button>
+      </a>
+    <!--The chatbot-->
+<div class="talk">
+  <button id="chat-button" onclick="openForm()"><img id="ch" src="../Images/chat.png" alt="chat"></button>
+  <div id="chat">
+  <header><img src="../Images/chatbot.png" alt="">
+  <p id="hello">Hi, I am LearnBot. How can I help?</p>
+  </header>
+  <div id="messages">
+    <p id="user"></p>
+    <p id="bot"></p>
+  </div>
+<div id="input-container">
+  <input type="text" placeholder="ask me anything" id="input"/>
+  <button id="send-button">Send</button>
+</div>
+</div>
+    </body>
+    <script src="../css and js files/home.js"></script>
+</html>

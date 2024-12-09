@@ -1,0 +1,262 @@
+/*styling for the intro text and images*/
+html{
+    background: url(../Images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-y: scroll;
+    height: fit-content;
+  }
+  #intro{
+  padding-top: 250px;
+  padding-left: 300px;
+  width: 800px;
+  color: #C58787;
+  font-size: 60px;
+  margin-top: auto;
+  height: fit-content;
+  }
+  
+  #btn{
+    border-radius: 200px;
+    background-color: #964A4A;
+    color: #e2c3c3;
+    width: 400px; 
+    height: 200px; 
+    font-size: 80px; 
+    margin-left: 500px; 
+  }
+  .Main{
+    margin-bottom: 1000px;
+    border: 1px solid white;
+  }
+  
+  #Inclusive{
+    height: 900px;
+    margin-top: 0px;
+    object-fit: cover;
+    width: 1960px;
+    border-radius: 800px 800px 0px 0px;
+  }
+
+  #inclusive2{
+    float: right;
+    right: 0%;
+    margin-top: 100px;
+    width: 1200px;
+    height: 1800px;
+    border-bottom-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    object-fit: cover;
+  }
+  
+  /*This is the styling for the Top Nav. Code snippets found at W3Schools.com*/
+  .topnav {
+    top: 0px;
+    display: flex;
+    overflow: hidden;
+    background: none;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    background: linear-gradient(#DC7373 20%, #1B0B0B 80%);
+  }
+  
+  /*This is the styling for the Top Nav. Code snippets found at W3Schools.com*/
+  .topnav {
+      display: flex;
+      overflow: hidden;
+      background: none;
+      position: relative;
+      width: fit-content;
+      height: fit-content;
+      position: fixed;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+      background: linear-gradient(#DC7373 20%, #1B0B0B 80%);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 1000px;
+      height: auto;
+      overflow-y: scroll;
+      position: fixed;
+    }
+    /*The styling for the links themelves*/
+    #links{
+      background-color: #824141;
+      width: 1000px;
+      height: fit-content;
+      font-size: 100px;
+    }
+    
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      display: block;
+      box-sizing: 900px;
+    }
+    
+    .topnav a.icon {
+      background-color: #964a4a;
+      background-size: 100%;
+      display: block;
+      position: relative;
+      right: 0;
+      top: 0;
+      height: 90px;
+      width: 90px;
+      margin-right: 20px;
+    }
+
+    .fa{
+      font-size: 100px;
+      font-weight: 1;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .active {
+      background-color: #964a4a;
+      color: #E2C3C3;
+      border: none;
+      border-radius: 50px;
+      font-family: kavoon, sans-serif;
+      cursor: pointer;
+      width: 550px;
+      text-align: center;
+      height: 85px;
+    }
+  
+    .active > #app-icon{
+      font-size: 75px;
+    }
+  
+    .active > #icon-app{
+      float: right;
+      border-radius: 50%;
+    }
+  
+    .app-icon{
+      display: flex;
+    }
+
+/*The styling for the chatbot and its toggler edited by Ruhail. Code snippets found at She Codes*/
+#user{
+    height: fit-content;
+    width: 700px ;
+    font-family: kavoon, sans-serif;
+    border-radius: 25px;
+    text-align: center;
+    overflow-y: scroll;
+    margin-right: 190px;
+    margin-bottom: 50px;
+    background-color: green;
+}
+
+#bot{
+    height: fit-content;
+    background-color: green;
+    width: 700px;
+    font-family: kavoon, sans-serif;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 1000px;
+    overflow-y: scroll;
+}
+
+#ch{
+    background: none;
+    width: 130px;
+    height: 130px;
+    bottom: 10px;
+    size: 100%;
+}
+
+.talk{
+position: absolute; bottom: 0;
+position: fixed;
+right: 0;
+}
+
+#chat-button{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+    background-color: bisque;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#chat{
+    display: none;
+    border: 1px solid black;
+    width: 2000px;
+    height: fit-content;
+    border-radius: 25px;
+    background: linear-gradient(#DBBCBC, #2A1717);
+}
+
+#send-button{
+    border-radius: 25px;
+    background-color: #663737;
+    width: 900px;
+    height: 90px;
+    font-size: 50px;
+    color: white;
+}
+
+#messages{
+    background: linear-gradient(#8C2626 8%, #D29B9B 32%, #300D0D 44%, #772020 56%, #260A0A 100%);
+    width: 1800px;
+    height: 800px;
+    margin-left: 25px;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-radius: 50px;
+    color: aqua;
+    overflow-Y: scroll;
+    font-size: 50px;
+    font-family: kavoon, sans-serif;
+}
+
+img{
+    width: 150px;
+    float: left;
+    background-color: purple;
+    border-radius: 25px;
+    margin-top: 13px;
+}
+
+header{
+    background-color: blue;
+    margin-top: 0px;
+    height: 150px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 90px;
+}
+
+#hello{
+    padding: 25px 25px;
+}
+
+input{
+    background-color: #663737;
+    width: 900px;
+    height: 90px;
+    border-radius: 25px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+    text-wrap: wrap;
+}
